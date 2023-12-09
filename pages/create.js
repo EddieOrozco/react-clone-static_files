@@ -1,7 +1,8 @@
 import Head from 'next/head'
-
+import { useStateContext } from '../components/HBOProvider'
 
 export default function CreateUser() {
+  const globalState = useStateContext()
   return (
     <div>
       <div className="create-user">
