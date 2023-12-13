@@ -11,7 +11,7 @@ export function HBOProvider({children}){
     const defaultUserImg = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF7ExHtiKhVddHOQW9Qki1wk4dC_ZbA3SJLQ&usqp=CAU'
     const createUserAction = (e) => {
         setUser(e.target.value)
-        console.log(user)
+        // console.log(user)
     }
     return (
         <StateContext.Provider
